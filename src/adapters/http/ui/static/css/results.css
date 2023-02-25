@@ -1,0 +1,16 @@
+.res {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+table {
+    margin: 0 auto;
+    padding: 2rem;
+}
+td {
+    min-width: 4rem;
+    padding-top: 1rem;
+}

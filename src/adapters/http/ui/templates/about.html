@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{{ url_for('static', path='/css/about.css') }}" rel="stylesheet">
+</head>
+<body>
+<div>{% include 'navbar.html' %}</div>
+<div class="about_holder">
+    <div class="about">
+        <h1>About me and the project</h1>
+        My name is Adrian Oziębło and this project is a part of my master's
+        <br>
+        thesis and at the same time the first entry in my online portfolio.
+        <br>
+        My masters thesis is about comparing multiple machine learning methods
+        <br>
+        for text recognition in images. To do that, this OCR (optical character
+        <br>
+        recognition) application was created. Additionally in order to conduct
+        <br>
+        required experiment it's going to be deployed as a webservice in cloud
+        <br>
+        (kubernetes cluster) environment. The thesis itself is beeing written
+        <br>
+        in polish (since that is my native language) and it's available publicly
+        <br>
+        to download and read right here :
+        <br>
+        <a href="{{ url_for('static', path='/comparisson_of_multiple_ocr_ml_methods.pdf') }}">Click to download </a>
+        <br>
+        (If my master's exam has not yet happened a placeholder is going to be there
+        <br>
+        instead of the thesis for copyright reasons)
+    </div>
+    <div class="photo"><img src="{{ url_for('static', path='/images/DSC_3350.JPG') }}"/></div>
+
+
+</div>
+<div> {% include 'footer.html' %}</div>
+</body>
+</html>

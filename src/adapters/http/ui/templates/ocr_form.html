@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{{ url_for('static', path='/css/ocr_form.css') }}" rel="stylesheet">
+</head>
+<body>
+<script type="text/javascript">
+    function prevImages(div_used, button_pressed) {
+        if (typeof (FileReader) != "undefined") {
+            var dvPreview = document.getElementById(div_used);
+            var fileUpload = document.getElementById(button_pressed);
+            dvPreview.innerHTML = "";
+            for (var i = 0; i < fileUpload.files.length; i++) {
+                var file = fileUpload.files[i];
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    var img = document.createElement("IMG");
+                    img.height = "100";
+                    img.width = "100";
+                    img.src = e.target.result;
+                    dvPreview.appendChild(img);
+                }
+                reader.readAsDataURL(file);
+            }
+        } else {
+            alert("This browser does not support HTML5 FileReader.");
+        }
+    };
+</script>
+<div>{% include 'navbar.html' %}</div>
+<div class="form_holder">
+    <h1> Get your image (or images) transcribed in three easy steps ! </h1>
+    <form id="ocr_from" action="/predict" method="POST" enctype="multipart/form-data">
+        <h2>First choose which of the machine learning algorithms you want to use:</h2>
+        <p>
+            <input type="radio" id="ml_choice_1" name="ml_choice" value="ml_ch_1" required>
+            <label for="ml_choice_1">Convolutional neural network</label>
+            <input type="radio" id="ml_choice_2" name="ml_choice" value="ml_ch_2">
+            <label for="ml_choice_1">Las binarny</label>
+            <input type="radio" id="ml_choice_3" name="ml_choice" value="ml_ch_3">
+            <label for="ml_choice_1">Keras OCR</label>
+            <input type="radio" id="ml_choice_4" name="ml_choice" value="ml_ch_4">
+            <label for="ml_choice_1">Pytorch</label>
+        </p>
+        <h2>
+            Next choose an image (or multiple images) you want to get transcribed !
+        </h2>
+        <p>
+        <div class="file-upload">
+            <input type="file" id="ocr_img" name="ocr_img" accept="image/*" multiple required onchange="prevImages('preview_images', 'ocr_img')">
+            <label for="ocr_img"></label>
+        </div>
+        <div id="preview_images">
+
+        </div>
+        </p>
+        <h2>
+            Finally press the button below and let the magic happen!
+        </h2>
+        <p>
+            <input type="submit" name="submit" value="Get transcription">
+        </p>
+    </form>
+</div>
+<div> {% include 'footer.html' %}</div>
+</body>
+</html>

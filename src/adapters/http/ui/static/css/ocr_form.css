@@ -1,0 +1,131 @@
+.form_holder {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 15rem;
+    font-size: 2rem;
+}
+
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #4db5ff;
+    border: 0.125rem solid #4db5ff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #1f1f38;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    margin-left: 4rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+    color: #0db3f1;
+}
+
+
+.file-upload {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    font-size: 1.75rem;
+}
+
+.file-upload input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.file-upload label {
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    background-color: #4db5ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.file-upload label:hover {
+    background-color: #fff;
+    color: #1f1f38;
+}
+
+.file-upload label::before {
+    content: "Upload File";
+}
+
+.file-upload input[type="file"]:hover + label,
+.file-upload input[type="file"]:focus + label {
+    background-color: #fff;
+    color: #1f1f38;
+}
+
+
+input[type="radio"] {
+  position: relative;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.6rem;
+  margin-bottom: 0.6rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0.125rem solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+input[type="radio"]:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #4db5ff;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+input[type="radio"]:checked:before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+input[type="radio"]:hover {
+  border-color: #4db5ff;
+}
+
+input[type="radio"]:focus {
+  outline: none;
+  border-color: #4db5ff;
+}
+
+.preview_images{
+    display: inline-block;
+    padding-top: 5rem;
+}

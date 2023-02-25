@@ -1,0 +1,24 @@
+.photo{
+    display: inline-block;
+    padding-left: 15rem;
+}
+
+img {
+    text-align: right;
+    float: right;
+    width: 50rem;
+    height: auto;
+}
+
+.about {
+    font-size: 1.75rem;
+
+}
+
+.about_holder {
+    display: flex;
+    padding: 10rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

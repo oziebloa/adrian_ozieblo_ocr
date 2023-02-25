@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{{ url_for('static', path='/css/results.css') }}" rel="stylesheet">
+</head>
+<body>
+<div>{% include 'navbar.html' %}</div>
+<div class="res">
+    <h1>Your results are here!</h1>
+    <h2>Your machine learning method of choice was {{ml_choice}}</h2>
+    <p>And here are your transcribed files:</p>
+    <table>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2"> Text file</td>
+            <td></td>
+            <td colspan="2"> Audio file</td>
+        </tr>
+        {% for filename in filenames %}
+        <tr>
+            <td>{{ filename}}</td>
+            <td></td>
+            <td><a href="{{ url_for('tmp', path= subdir + '/' + filename + '.txt')}}"> Open </a></td>
+            <td><a href="{{ url_for('tmp', path= subdir + '/' + filename + '.txt')}}"> Download </a></td>
+            <td></td>
+            <td><a href="{{ url_for('tmp', path= subdir + '/' + filename + '.mp3')}}">Open</a></td>
+            <td><a href="{{ url_for('tmp', path= subdir + '/' + filename + '.mp3')}}">Download</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+<div> {% include 'footer.html' %}</div>
+</body>
+</html>

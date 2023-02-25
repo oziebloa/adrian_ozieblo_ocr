@@ -2,10 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="{{ url_for('static', path='/css/index.css') }}" rel="stylesheet">
-    <title>AO_OCR</title>
 </head>
 <body>
+<div class="content">
+    <div>{% include 'navbar.html' %}</div>
+    <div class="paragraph">
+        <h1>OCR (Optical Character Recognition)</h1>
+        is a technology that allows computers to recognize and
+        interpret printed or handwritten text from images,<br>
+        scanned documents, or other sources. OCR software uses
+        algorithms and machine learning techniques to analyze<br> the shapes,
+        patterns, and other features of the characters
+        in an image and convert them into digital text that can be edited,<br>
+        searched, or stored in a database.<br><br>
+
+        OCR is widely used in industries such as finance, healthcare, and government, where there is a need to process
+        <br>
+        large volumes of paper-based documents quickly and accurately. It can help automate tasks such as data entry,
+        <br>
+        invoice processing, and form filling, and improve efficiency and productivity in various business processes.
+        <br>
+        OCR is also used in document management systems, e-books, and other applications where text needs to be
+        extracted from images.<br><br>
+
+        You can now try out multiple OCR methods by clicking the button below. <br>
+    </div>
+    <div class="try_now">
+        <button type="button" class="btn" onclick="window.location.href='{{ url_for('get_ocr_form')}}'">Try OCR now !
+        </button>
+    </div>
+    <div> {% include 'footer.html' %}</div>
+</div>
+
 
 </body>
 </html>
