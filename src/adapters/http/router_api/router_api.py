@@ -1,3 +1,4 @@
+### API router, handling all http routes ###
 import os
 from pathlib import Path
 from typing import List
@@ -54,7 +55,7 @@ async def favicon():
 
 @app.post("/predict", response_class=HTMLResponse)
 async def predict(request: Request, ml_choice: str = Form(), ocr_img: List[UploadFile] = File()):
-    subdir = prediction_service.get_list_of_images_transcribed(ocr_img, ml_choice)
+    results_subdir = prediction_service.get_list_of_images_transcribed(ocr_img, ml_choice)
     filenames = [os.path.splitext(img.filename)[0] for img in ocr_img]
-    print(subdir)
-    return templates.TemplateResponse("results.html", {"request": request, "ml_choice": ml_choice, "subdir": subdir, "filenames": filenames})
+    return templates.TemplateResponse("results.html", {"request": request, "ml_choice": ml_choice,
+                                                       "subdir": results_subdir, "filenames": filenames})

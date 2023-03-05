@@ -4,9 +4,21 @@ from pathlib import Path
 
 from gtts import gTTS
 
+from src.ml.trained_models import easy_ocr
+from src.ml.trained_models import pytesseract
+from src.ml.trained_models import paddle_ocr
 
 def get_character_recognition(file, algorithm):
-    return str(file)
+    if algorithm == 'EasyOCR':
+        predicted_text = easy_ocr.ocr_image(file)
+    elif algorithm == 'TesseractOCR':
+        predicted_text = pytesseract.ocr_image(file)
+    elif algorithm == 'PaddleOCR':
+        predicted_text = paddle_ocr.ocr_image(file)
+    else:
+        predicted_text = 'Ejror'
+    print(predicted_text)
+    return str(predicted_text)
 
 
 def get_list_of_images_transcribed(img_list, ml_algo):
@@ -15,8 +27,8 @@ def get_list_of_images_transcribed(img_list, ml_algo):
     path_name = Path(__file__).parent.parent.parent.absolute() / appended_subpath
     os.makedirs(f'{path_name}')
     for img in img_list:
-        text = get_character_recognition(f'{os.path.splitext(img.filename)[0]}', ml_algo)
-        audio = text_to_speech("Test to speech test")
+        text = get_character_recognition(img, ml_algo)
+        audio = text_to_speech(text)
         with open(f'{path_name}/{os.path.splitext(img.filename)[0]}.txt', 'w') as file:
             file.write(text)
             audio.save(f'{path_name}/{os.path.splitext(img.filename)[0]}.mp3')

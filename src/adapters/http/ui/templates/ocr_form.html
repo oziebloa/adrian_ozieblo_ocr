@@ -34,14 +34,12 @@
     <form id="ocr_from" action="/predict" method="POST" enctype="multipart/form-data">
         <h2>First choose which of the machine learning algorithms you want to use:</h2>
         <p>
-            <input type="radio" id="ml_choice_1" name="ml_choice" value="ml_ch_1" required>
-            <label for="ml_choice_1">Convolutional neural network</label>
-            <input type="radio" id="ml_choice_2" name="ml_choice" value="ml_ch_2">
-            <label for="ml_choice_1">Las binarny</label>
-            <input type="radio" id="ml_choice_3" name="ml_choice" value="ml_ch_3">
-            <label for="ml_choice_1">Keras OCR</label>
-            <input type="radio" id="ml_choice_4" name="ml_choice" value="ml_ch_4">
-            <label for="ml_choice_1">Pytorch</label>
+            <input type="radio" id="ml_choice_2" name="ml_choice" value="EasyOCR">
+            <label for="ml_choice_2">Easy OCR</label>
+            <input type="radio" id="ml_choice_3" name="ml_choice" value="TesseractOCR">
+            <label for="ml_choice_3">Tesseract OCR</label>
+            <input type="radio" id="ml_choice_4" name="ml_choice" value="PaddleOCR">
+            <label for="ml_choice_4">Paddle OCR</label>
         </p>
         <h2>
             Next choose an image (or multiple images) you want to get transcribed !
