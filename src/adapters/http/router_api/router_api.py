@@ -59,3 +59,10 @@ async def predict(request: Request, ml_choice: str = Form(), ocr_img: List[Uploa
     filenames = [os.path.splitext(img.filename)[0] for img in ocr_img]
     return templates.TemplateResponse("results.html", {"request": request, "ml_choice": ml_choice,
                                                        "subdir": results_subdir, "filenames": filenames})
+
+@app.get("/tmp_download/{subdir}/{filename:path}")
+async def download_file(subdir: str, filename: str):
+    path = Path('tmp_download') / subdir / filename
+    return FileResponse(str(path), filename=filename, headers={"Content-Disposition": "attachment"})
+
+

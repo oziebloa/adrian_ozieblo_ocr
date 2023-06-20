@@ -22,10 +22,10 @@
             <td>{{ filename}}</td>
             <td></td>
             <td><a href="{{ url_for('tmp', path= subdir + '/' + filename + '.txt')}}"> Open </a></td>
-            <td><a href="{{ url_for('tmp', path= subdir + '/' + filename + '.txt')}}"> Download </a></td>
+            <td><a href="{{ 'tmp_download/' + subdir + '/' + filename + '.txt' }}"> Download </a></td>
             <td></td>
             <td><a href="{{ url_for('tmp', path= subdir + '/' + filename + '.mp3')}}">Open</a></td>
-            <td><a href="{{ url_for('tmp', path= subdir + '/' + filename + '.mp3')}}">Download</td>
+            <td><a href="{{ 'tmp_download/' + subdir + '/' + filename + '.mp3' }}">Download</td>
         </tr>
         {% endfor %}
     </table>

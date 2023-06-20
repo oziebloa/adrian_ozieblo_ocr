@@ -2,7 +2,8 @@ FROM python:3.10
 COPY ["requirements.txt", "./"]
 RUN apt-get update \
   && apt-get -y install tesseract-ocr \
-  && apt-get -y install ffmpeg libsm6 libxext6
+  && apt-get -y install ffmpeg libsm6 libxext6 \
+  && apt-get -y install vim
 
 RUN pip install --upgrade pip && pip install Jinja2 --upgrade
 RUN pip install -r requirements.txt && pip install python-multipart
