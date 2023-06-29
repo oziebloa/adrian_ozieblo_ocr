@@ -33,6 +33,7 @@
     <h1> Get your image (or images) transcribed in three easy steps ! </h1>
     <form id="ocr_from" action="/predict" method="POST" enctype="multipart/form-data">
         <h2>First choose which of the machine learning algorithms you want to use:</h2>
+
         <p>
             <input type="radio" id="ml_choice_2" name="ml_choice" value="EasyOCR">
             <label for="ml_choice_2">Easy OCR</label>
@@ -41,6 +42,8 @@
             <input type="radio" id="ml_choice_4" name="ml_choice" value="PaddleOCR">
             <label for="ml_choice_4">Paddle OCR</label>
         </p>
+
+
         <h2>
             Next choose an image (or multiple images) you want to get transcribed !
         </h2>

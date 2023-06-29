@@ -16,7 +16,7 @@ def get_character_recognition(file, algorithm):
     elif algorithm == 'PaddleOCR':
         predicted_text = paddle_ocr.ocr_image(file)
     else:
-        predicted_text = 'Ejror'
+        predicted_text = 'Error while loading ML module'
     print(predicted_text)
     return str(predicted_text)
 

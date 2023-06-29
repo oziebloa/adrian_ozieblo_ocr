@@ -34,4 +34,4 @@ def startup_event():
     tmp_download_cleanup.create_task(clean_tmp('tmp_download'))
 
 if __name__ == '__main__':
-    uvicorn.run(app, host="localhost", port=8080)
+    uvicorn.run(app, host="localhost", port=8000)
