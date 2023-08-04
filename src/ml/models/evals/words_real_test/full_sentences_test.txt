@@ -1,0 +1,6 @@
+Out of possible 4184 characters 
+Emnist_Deep model recognized correctly 2471, which turns out to be 59.058317399617586 percent accuracy
+Emnist_Deep but when case sensitivity is not important, then correct recognition jumps up to 2963 and that is 70.81739961759082 percent accuracy
+TesseractOCR was able to recognize 4149 characters correctly, which is 99.16347992351817 percent accuracry
+EasyOCR was able to recognize 2799 characters correctly, which is 66.89770554493309 percent accuracry
+PaddleOCR was able to recognize 3831 characters correctly, which is 91.56309751434034 percent accuracry

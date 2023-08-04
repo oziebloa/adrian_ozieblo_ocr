@@ -1,0 +1,64 @@
+Models trying to recognize 0
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 0 
+Custom model recognized it as 0 
+
+
+Models trying to recognize 1
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 1 
+Custom model recognized it as 1 
+
+
+Models trying to recognize 2
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 2 
+Custom model recognized it as 2 
+
+
+Models trying to recognize 3
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 3 
+Custom model recognized it as 3 
+
+
+Models trying to recognize 4
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 4 
+Custom model recognized it as 4 
+
+
+Models trying to recognize 5
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 5 
+Custom model recognized it as 5 
+
+
+Models trying to recognize 6
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 6 
+Custom model recognized it as 8 
+
+
+Models trying to recognize 7
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 7 
+Custom model recognized it as 7 
+
+
+Models trying to recognize 8
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 8 
+Custom model recognized it as 8 
+
+
+Models trying to recognize 9
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 9 
+Custom model recognized it as 9 
+
+
+In total out of 10 attempts: 
+ TesseractOCR recognized well 0 giving it 0.0 % accuracy 
+PaddleOCR recognized well 10 giving it 100.0 % accuracy 
+Custom OCR model recognized well 9 giving it 90.0 % accuracy

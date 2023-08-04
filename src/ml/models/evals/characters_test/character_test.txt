@@ -1,0 +1,565 @@
+Models trying to recognize 0
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 0 
+CNN_Kaggle model recognized it as 0 
+CRNN_Kaggle model recognized it as 0 
+CNN_Emnist model recognized it as 0 
+CRNN_Emnist model recognized it as 0 
+
+
+Models trying to recognize 1
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 1 
+CNN_Kaggle model recognized it as 1 
+CRNN_Kaggle model recognized it as 1 
+CNN_Emnist model recognized it as 4 
+CRNN_Emnist model recognized it as n 
+
+
+Models trying to recognize 2
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 2 
+CNN_Kaggle model recognized it as 2 
+CRNN_Kaggle model recognized it as 2 
+CNN_Emnist model recognized it as 2 
+CRNN_Emnist model recognized it as 2 
+
+
+Models trying to recognize 3
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 3 
+CNN_Kaggle model recognized it as 3 
+CRNN_Kaggle model recognized it as 3 
+CNN_Emnist model recognized it as 3 
+CRNN_Emnist model recognized it as 3 
+
+
+Models trying to recognize 4
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 4 
+CNN_Kaggle model recognized it as 1 
+CRNN_Kaggle model recognized it as 4 
+CNN_Emnist model recognized it as 4 
+CRNN_Emnist model recognized it as 4 
+
+
+Models trying to recognize 5
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 5 
+CNN_Kaggle model recognized it as 5 
+CRNN_Kaggle model recognized it as 5 
+CNN_Emnist model recognized it as 5 
+CRNN_Emnist model recognized it as 5 
+
+
+Models trying to recognize 6
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 6 
+CNN_Kaggle model recognized it as 0 
+CRNN_Kaggle model recognized it as 8 
+CNN_Emnist model recognized it as 6 
+CRNN_Emnist model recognized it as 8 
+
+
+Models trying to recognize 7
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 7 
+CNN_Kaggle model recognized it as 7 
+CRNN_Kaggle model recognized it as 7 
+CNN_Emnist model recognized it as 7 
+CRNN_Emnist model recognized it as 7 
+
+
+Models trying to recognize 8
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 8 
+CNN_Kaggle model recognized it as 8 
+CRNN_Kaggle model recognized it as 8 
+CNN_Emnist model recognized it as a 
+CRNN_Emnist model recognized it as 8 
+
+
+Models trying to recognize 9
+TesseractOCR recognized it as  
+PaddleOCR recognized it as 9 
+CNN_Kaggle model recognized it as 9 
+CRNN_Kaggle model recognized it as 9 
+CNN_Emnist model recognized it as a 
+CRNN_Emnist model recognized it as G 
+
+
+Models trying to recognize a
+TesseractOCR recognized it as  
+PaddleOCR recognized it as A 
+CNN_Kaggle model recognized it as A 
+CRNN_Kaggle model recognized it as A 
+CNN_Emnist model recognized it as A 
+CRNN_Emnist model recognized it as A 
+
+
+Models trying to recognize b
+TesseractOCR recognized it as  
+PaddleOCR recognized it as B 
+CNN_Kaggle model recognized it as B 
+CRNN_Kaggle model recognized it as 8 
+CNN_Emnist model recognized it as B 
+CRNN_Emnist model recognized it as B 
+
+
+Models trying to recognize c
+TesseractOCR recognized it as  
+PaddleOCR recognized it as C 
+CNN_Kaggle model recognized it as 0 
+CRNN_Kaggle model recognized it as 0 
+CNN_Emnist model recognized it as C 
+CRNN_Emnist model recognized it as ] 
+
+
+Models trying to recognize d
+TesseractOCR recognized it as  
+PaddleOCR recognized it as D 
+CNN_Kaggle model recognized it as 0 
+CRNN_Kaggle model recognized it as 0 
+CNN_Emnist model recognized it as D 
+CRNN_Emnist model recognized it as D 
+
+
+Models trying to recognize e
+TesseractOCR recognized it as  
+PaddleOCR recognized it as E 
+CNN_Kaggle model recognized it as E 
+CRNN_Kaggle model recognized it as E 
+CNN_Emnist model recognized it as E 
+CRNN_Emnist model recognized it as E 
+
+
+Models trying to recognize f
+TesseractOCR recognized it as  
+PaddleOCR recognized it as F 
+CNN_Kaggle model recognized it as F 
+CRNN_Kaggle model recognized it as F 
+CNN_Emnist model recognized it as F 
+CRNN_Emnist model recognized it as F 
+
+
+Models trying to recognize g
+TesseractOCR recognized it as  
+PaddleOCR recognized it as G 
+CNN_Kaggle model recognized it as G 
+CRNN_Kaggle model recognized it as G 
+CNN_Emnist model recognized it as G 
+CRNN_Emnist model recognized it as G 
+
+
+Models trying to recognize h
+TesseractOCR recognized it as  
+PaddleOCR recognized it as H 
+CNN_Kaggle model recognized it as 4 
+CRNN_Kaggle model recognized it as 4 
+CNN_Emnist model recognized it as H 
+CRNN_Emnist model recognized it as H 
+
+
+Models trying to recognize i
+TesseractOCR recognized it as  
+PaddleOCR recognized it as  
+CNN_Kaggle model recognized it as 1 
+CRNN_Kaggle model recognized it as 1 
+CNN_Emnist model recognized it as f 
+CRNN_Emnist model recognized it as I 
+
+
+Models trying to recognize j
+TesseractOCR recognized it as  
+PaddleOCR recognized it as J 
+CNN_Kaggle model recognized it as J 
+CRNN_Kaggle model recognized it as J 
+CNN_Emnist model recognized it as d 
+CRNN_Emnist model recognized it as d 
+
+
+Models trying to recognize k
+TesseractOCR recognized it as  
+PaddleOCR recognized it as K 
+CNN_Kaggle model recognized it as K 
+CRNN_Kaggle model recognized it as K 
+CNN_Emnist model recognized it as K 
+CRNN_Emnist model recognized it as e 
+
+
+Models trying to recognize l
+TesseractOCR recognized it as  
+PaddleOCR recognized it as L 
+CNN_Kaggle model recognized it as L 
+CRNN_Kaggle model recognized it as L 
+CNN_Emnist model recognized it as L 
+CRNN_Emnist model recognized it as L 
+
+
+Models trying to recognize m
+TesseractOCR recognized it as  
+PaddleOCR recognized it as M 
+CNN_Kaggle model recognized it as M 
+CRNN_Kaggle model recognized it as U 
+CNN_Emnist model recognized it as M 
+CRNN_Emnist model recognized it as M 
+
+
+Models trying to recognize n
+TesseractOCR recognized it as  
+PaddleOCR recognized it as Z 
+CNN_Kaggle model recognized it as N 
+CRNN_Kaggle model recognized it as N 
+CNN_Emnist model recognized it as N 
+CRNN_Emnist model recognized it as N 
+
+
+Models trying to recognize o
+TesseractOCR recognized it as  
+PaddleOCR recognized it as O 
+CNN_Kaggle model recognized it as 0 
+CRNN_Kaggle model recognized it as 0 
+CNN_Emnist model recognized it as 0 
+CRNN_Emnist model recognized it as 0 
+
+
+Models trying to recognize p
+TesseractOCR recognized it as  
+PaddleOCR recognized it as P 
+CNN_Kaggle model recognized it as P 
+CRNN_Kaggle model recognized it as P 
+CNN_Emnist model recognized it as P 
+CRNN_Emnist model recognized it as j 
+
+
+Models trying to recognize q
+TesseractOCR recognized it as  
+PaddleOCR recognized it as Q 
+CNN_Kaggle model recognized it as 0 
+CRNN_Kaggle model recognized it as 0 
+CNN_Emnist model recognized it as Q 
+CRNN_Emnist model recognized it as Q 
+
+
+Models trying to recognize r
+TesseractOCR recognized it as  
+PaddleOCR recognized it as R 
+CNN_Kaggle model recognized it as R 
+CRNN_Kaggle model recognized it as 8 
+CNN_Emnist model recognized it as R 
+CRNN_Emnist model recognized it as R 
+
+
+Models trying to recognize s
+TesseractOCR recognized it as  
+PaddleOCR recognized it as S 
+CNN_Kaggle model recognized it as 5 
+CRNN_Kaggle model recognized it as 5 
+CNN_Emnist model recognized it as S 
+CRNN_Emnist model recognized it as S 
+
+
+Models trying to recognize t
+TesseractOCR recognized it as  
+PaddleOCR recognized it as T 
+CNN_Kaggle model recognized it as 7 
+CRNN_Kaggle model recognized it as T 
+CNN_Emnist model recognized it as n 
+CRNN_Emnist model recognized it as T 
+
+
+Models trying to recognize u
+TesseractOCR recognized it as  
+PaddleOCR recognized it as U 
+CNN_Kaggle model recognized it as U 
+CRNN_Kaggle model recognized it as U 
+CNN_Emnist model recognized it as U 
+CRNN_Emnist model recognized it as U 
+
+
+Models trying to recognize v
+TesseractOCR recognized it as  
+PaddleOCR recognized it as V 
+CNN_Kaggle model recognized it as V 
+CRNN_Kaggle model recognized it as V 
+CNN_Emnist model recognized it as V 
+CRNN_Emnist model recognized it as V 
+
+
+Models trying to recognize w
+TesseractOCR recognized it as  
+PaddleOCR recognized it as W 
+CNN_Kaggle model recognized it as W 
+CRNN_Kaggle model recognized it as W 
+CNN_Emnist model recognized it as W 
+CRNN_Emnist model recognized it as W 
+
+
+Models trying to recognize x
+TesseractOCR recognized it as  
+PaddleOCR recognized it as X 
+CNN_Kaggle model recognized it as X 
+CRNN_Kaggle model recognized it as X 
+CNN_Emnist model recognized it as X 
+CRNN_Emnist model recognized it as X 
+
+
+Models trying to recognize y
+TesseractOCR recognized it as  
+PaddleOCR recognized it as Y 
+CNN_Kaggle model recognized it as 4 
+CRNN_Kaggle model recognized it as Y 
+CNN_Emnist model recognized it as Y 
+CRNN_Emnist model recognized it as Y 
+
+
+Models trying to recognize z
+TesseractOCR recognized it as  
+PaddleOCR recognized it as Z 
+CNN_Kaggle model recognized it as 2 
+CRNN_Kaggle model recognized it as 7 
+CNN_Emnist model recognized it as Z 
+CRNN_Emnist model recognized it as Z 
+
+
+Models trying to recognize A
+TesseractOCR recognized it as  
+PaddleOCR recognized it as A 
+CNN_Kaggle model recognized it as A 
+CRNN_Kaggle model recognized it as A 
+CNN_Emnist model recognized it as A 
+CRNN_Emnist model recognized it as A 
+
+
+Models trying to recognize B
+TesseractOCR recognized it as  
+PaddleOCR recognized it as B 
+CNN_Kaggle model recognized it as B 
+CRNN_Kaggle model recognized it as 8 
+CNN_Emnist model recognized it as B 
+CRNN_Emnist model recognized it as B 
+
+
+Models trying to recognize C
+TesseractOCR recognized it as  
+PaddleOCR recognized it as C 
+CNN_Kaggle model recognized it as 0 
+CRNN_Kaggle model recognized it as 0 
+CNN_Emnist model recognized it as C 
+CRNN_Emnist model recognized it as ] 
+
+
+Models trying to recognize D
+TesseractOCR recognized it as  
+PaddleOCR recognized it as D 
+CNN_Kaggle model recognized it as 0 
+CRNN_Kaggle model recognized it as 0 
+CNN_Emnist model recognized it as D 
+CRNN_Emnist model recognized it as D 
+
+
+Models trying to recognize E
+TesseractOCR recognized it as  
+PaddleOCR recognized it as E 
+CNN_Kaggle model recognized it as E 
+CRNN_Kaggle model recognized it as E 
+CNN_Emnist model recognized it as E 
+CRNN_Emnist model recognized it as E 
+
+
+Models trying to recognize F
+TesseractOCR recognized it as  
+PaddleOCR recognized it as F 
+CNN_Kaggle model recognized it as F 
+CRNN_Kaggle model recognized it as F 
+CNN_Emnist model recognized it as F 
+CRNN_Emnist model recognized it as F 
+
+
+Models trying to recognize G
+TesseractOCR recognized it as  
+PaddleOCR recognized it as G 
+CNN_Kaggle model recognized it as G 
+CRNN_Kaggle model recognized it as G 
+CNN_Emnist model recognized it as G 
+CRNN_Emnist model recognized it as G 
+
+
+Models trying to recognize H
+TesseractOCR recognized it as  
+PaddleOCR recognized it as H 
+CNN_Kaggle model recognized it as 4 
+CRNN_Kaggle model recognized it as 4 
+CNN_Emnist model recognized it as H 
+CRNN_Emnist model recognized it as H 
+
+
+Models trying to recognize I
+TesseractOCR recognized it as  
+PaddleOCR recognized it as  
+CNN_Kaggle model recognized it as 1 
+CRNN_Kaggle model recognized it as 1 
+CNN_Emnist model recognized it as f 
+CRNN_Emnist model recognized it as I 
+
+
+Models trying to recognize J
+TesseractOCR recognized it as  
+PaddleOCR recognized it as J 
+CNN_Kaggle model recognized it as J 
+CRNN_Kaggle model recognized it as J 
+CNN_Emnist model recognized it as d 
+CRNN_Emnist model recognized it as d 
+
+
+Models trying to recognize K
+TesseractOCR recognized it as  
+PaddleOCR recognized it as K 
+CNN_Kaggle model recognized it as K 
+CRNN_Kaggle model recognized it as K 
+CNN_Emnist model recognized it as K 
+CRNN_Emnist model recognized it as e 
+
+
+Models trying to recognize L
+TesseractOCR recognized it as  
+PaddleOCR recognized it as L 
+CNN_Kaggle model recognized it as L 
+CRNN_Kaggle model recognized it as L 
+CNN_Emnist model recognized it as L 
+CRNN_Emnist model recognized it as L 
+
+
+Models trying to recognize M
+TesseractOCR recognized it as  
+PaddleOCR recognized it as M 
+CNN_Kaggle model recognized it as M 
+CRNN_Kaggle model recognized it as U 
+CNN_Emnist model recognized it as M 
+CRNN_Emnist model recognized it as M 
+
+
+Models trying to recognize N
+TesseractOCR recognized it as  
+PaddleOCR recognized it as Z 
+CNN_Kaggle model recognized it as N 
+CRNN_Kaggle model recognized it as N 
+CNN_Emnist model recognized it as N 
+CRNN_Emnist model recognized it as N 
+
+
+Models trying to recognize O
+TesseractOCR recognized it as  
+PaddleOCR recognized it as O 
+CNN_Kaggle model recognized it as 0 
+CRNN_Kaggle model recognized it as 0 
+CNN_Emnist model recognized it as 0 
+CRNN_Emnist model recognized it as 0 
+
+
+Models trying to recognize P
+TesseractOCR recognized it as  
+PaddleOCR recognized it as P 
+CNN_Kaggle model recognized it as P 
+CRNN_Kaggle model recognized it as P 
+CNN_Emnist model recognized it as P 
+CRNN_Emnist model recognized it as j 
+
+
+Models trying to recognize Q
+TesseractOCR recognized it as  
+PaddleOCR recognized it as Q 
+CNN_Kaggle model recognized it as 0 
+CRNN_Kaggle model recognized it as 0 
+CNN_Emnist model recognized it as Q 
+CRNN_Emnist model recognized it as Q 
+
+
+Models trying to recognize R
+TesseractOCR recognized it as  
+PaddleOCR recognized it as R 
+CNN_Kaggle model recognized it as R 
+CRNN_Kaggle model recognized it as 8 
+CNN_Emnist model recognized it as R 
+CRNN_Emnist model recognized it as R 
+
+
+Models trying to recognize S
+TesseractOCR recognized it as  
+PaddleOCR recognized it as S 
+CNN_Kaggle model recognized it as 5 
+CRNN_Kaggle model recognized it as 5 
+CNN_Emnist model recognized it as S 
+CRNN_Emnist model recognized it as S 
+
+
+Models trying to recognize T
+TesseractOCR recognized it as  
+PaddleOCR recognized it as T 
+CNN_Kaggle model recognized it as 7 
+CRNN_Kaggle model recognized it as T 
+CNN_Emnist model recognized it as n 
+CRNN_Emnist model recognized it as T 
+
+
+Models trying to recognize U
+TesseractOCR recognized it as  
+PaddleOCR recognized it as U 
+CNN_Kaggle model recognized it as U 
+CRNN_Kaggle model recognized it as U 
+CNN_Emnist model recognized it as U 
+CRNN_Emnist model recognized it as U 
+
+
+Models trying to recognize V
+TesseractOCR recognized it as  
+PaddleOCR recognized it as V 
+CNN_Kaggle model recognized it as V 
+CRNN_Kaggle model recognized it as V 
+CNN_Emnist model recognized it as V 
+CRNN_Emnist model recognized it as V 
+
+
+Models trying to recognize W
+TesseractOCR recognized it as  
+PaddleOCR recognized it as W 
+CNN_Kaggle model recognized it as W 
+CRNN_Kaggle model recognized it as W 
+CNN_Emnist model recognized it as W 
+CRNN_Emnist model recognized it as W 
+
+
+Models trying to recognize X
+TesseractOCR recognized it as  
+PaddleOCR recognized it as X 
+CNN_Kaggle model recognized it as X 
+CRNN_Kaggle model recognized it as X 
+CNN_Emnist model recognized it as X 
+CRNN_Emnist model recognized it as X 
+
+
+Models trying to recognize Y
+TesseractOCR recognized it as  
+PaddleOCR recognized it as Y 
+CNN_Kaggle model recognized it as 4 
+CRNN_Kaggle model recognized it as Y 
+CNN_Emnist model recognized it as Y 
+CRNN_Emnist model recognized it as Y 
+
+
+Models trying to recognize Z
+TesseractOCR recognized it as  
+PaddleOCR recognized it as Z 
+CNN_Kaggle model recognized it as 2 
+CRNN_Kaggle model recognized it as 7 
+CNN_Emnist model recognized it as Z 
+CRNN_Emnist model recognized it as Z 
+
+
+In total out of 36 attempts: 
+ TesseractOCR recognized well 0 giving it 0.0 % accuracy 
+PaddleOCR recognized well 34 giving it 94.44444444444444 % accuracy 
+CNN_Kaggle OCR model recognized well 24 giving it 66.66666666666666 % accuracy 
+CRNN_Kaggle OCR model recognized well 24 giving it 66.66666666666666 % accuracy 
+CNN_Emnist OCR model recognized well 29 giving it 80.55555555555556 % accuracy 
+CRNN_Emnist OCR model recognized well 28 giving it 77.77777777777779 % accuracy

@@ -1,1 +1,3 @@
 /src/ml/trained_models/Tesseract-OCR/
+/src/ml/models/evals/Tesseract-OCR/
+/src/ml/models/evals/paddle_files_dir/

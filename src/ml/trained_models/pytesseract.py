@@ -13,3 +13,5 @@ def ocr_image(image):
         text = pytesseract.image_to_string(img)
         print('done')
     return text
+
+
